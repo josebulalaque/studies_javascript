@@ -1,2 +1,14 @@
 let greetingText = "Hi, I'm Jojo!!!!";
-alert(32);
+console.log(greetingText);
+
+
+let person = {
+    name: 'Jojo', //Property
+    greet() { //Method
+        console.log('Hello!');
+    }
+};
+
+
+
+
