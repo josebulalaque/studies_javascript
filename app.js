@@ -1,14 +1,4 @@
-let greetingText = "Hi, I'm Jojo!!!!";
-console.log(greetingText);
+// console.dir(document)
 
-
-let person = {
-    name: 'Jojo', //Property
-    greet() { //Method
-        console.log('Hello!');
-    }
-};
-
-
-
+document.body.children[1].children[0].href = 'https://google.com';
 
