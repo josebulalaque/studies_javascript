@@ -1,42 +1,19 @@
-let onlineCourse = "BSIT";
-let priceCourse = 37000;
-let maingoals = ["learn", "upskill", "improve"];
+let h1Element = document.body.firstElementChild;
+h1Element = document.body.children[0];
 
-// alert(onlineCourse);
-// alert(priceCourse);
-// alert(maingoals);
+console.dir(h1Element);
 
-// let groupVar = onlineCourse + priceCourse + maingoals;
+console.dir(h1Element.parentElement);
 
-let groupVar = {
-  name: onlineCourse,
-  price: priceCourse,
-  goals: maingoals,
-};
+console.dir(h1Element.previousSibling);
 
-// alert(groupVar.name);
-// alert(groupVar.price);
-// alert(groupVar.goals);
+console.dir(h1Element.nextElementSibling);
 
-//alert(groupVar.goals[1]);
+h1Element = document.getElementById('first-title');
+console.dir(h1Element);
 
-function getListItem(array, arrayIndex){
-    let arrayElement = array[arrayIndex];
-    return arrayElement;
-}
+let highlightedParagraph = document.querySelector('.highlighted-paragraph');
+console.dir(highlightedParagraph);
 
-let firstGoal = getListItem(groupVar.goals,1);
+highlightedParagraph.textContent = 'THISISEDITED!!!';
 
-
-alert(firstGoal);
-
-
-// alert(maingoals[1]);
-
-// let i;
-
-// function myCommand(myList, i) {
-//   return myList[i];
-// }
-
-// alert(myCommand(maingoals, 1));
