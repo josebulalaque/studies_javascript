@@ -35,4 +35,4 @@ let firstH1Element = document.querySelector('h1');
 // 2. remove it!
 firstH1Element.remove();
 
-firstH1Element.parentElement.removeChild(firstH1Element); // for older browser like IE
+//firstH1Element.parentElement.removeChild(firstH1Element); // for older browser like IE
