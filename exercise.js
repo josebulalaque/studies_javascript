@@ -15,5 +15,5 @@ console.dir(h1Element);
 let highlightedParagraph = document.querySelector('.highlighted-paragraph');
 console.dir(highlightedParagraph);
 
-highlightedParagraph.textContent = 'THISISEDITED!!!';
+highlightedParagraph.textContent = 'THISISEDITED!!!!!!!!!';
 
