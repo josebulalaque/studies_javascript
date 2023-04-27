@@ -11,3 +11,19 @@ anchorElement = document.querySelector('a'); //selects the first matching elemen
 anchorElement.href  = 'https://microsoft.com';
 
 
+// add an element to HTML using JS
+// 1. create the new element
+
+let newAnchorElement = document.createElement('a');
+
+newAnchorElement.href = 'https://google.com'
+newAnchorElement.textContent = 'This leads to google!';
+
+// 2. get access to the parent element that should hold the new element
+
+let firstParagraph = document.querySelector('p'); // finds the first <p> element in the page
+
+// 3. insert the new element into the parent element content
+
+firstParagraph.append(newAnchorElement);
+
