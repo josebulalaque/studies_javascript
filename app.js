@@ -27,3 +27,10 @@ let firstParagraph = document.querySelector('p'); // finds the first <p> element
 
 firstParagraph.append(newAnchorElement);
 
+//REMOVE ELEMENTS
+
+// 1. SELECT THE ELEMENT that should be removed
+let firstH1Element = document.querySelector('h1');
+
+// 2. remove it!
+firstH1Element.remove();
